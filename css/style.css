@@ -413,5 +413,8 @@ img {
   #mainCarousel .hero h3 {
     font-size: 16px;
   }
+  #about{
+    width: 50%;
+  }
   }
   
