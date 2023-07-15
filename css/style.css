@@ -1,0 +1,409 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+	overflow-x: hidden;
+}
+.logo {
+	height: 100px;
+	width: 120px;
+	top: 0;
+	left: 0;
+	margin-left: 4px;
+	margin-top: 20px;
+}
+#scrollUp {
+  bottom: 20px;
+  right: 20px;
+  width: 38px; /* Width of image */
+  height: 38px; /* Height of image */
+  background: url(../images/top.png) no-repeat;
+}
+
+
+
+
+
+/******** Slider ********/
+
+.carousel, .item, .active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+#mainCarousel .slider_overlay {
+    background: none repeat scroll 0 0 #252333;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+#mainCarousel .hero {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+    color: #fff;
+    text-align: center;
+    padding: 0 13%;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .75);
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+
+#mainCarousel .hero h1 {
+    font-size: 80px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+
+#mainCarousel .hero h3 {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+#mainCarousel .hero button {
+	margin-top: 30px;
+	background: none;
+	font-size: 20px;
+	padding: 10px 20px;
+	outline: none;
+	border-color: #fff;
+}
+
+#mainCarousel .carousel-control {
+	position: absolute;
+	z-index: 1000;
+}
+
+#mainCarousel .carousel-control.left {
+	background-image: none;
+}
+
+#mainCarousel .carousel-control.right {
+	background-image: none;
+}
+
+@media screen and (min-width: 768px) {
+#mainCarousel .carousel-control .icon-next, #mainCarousel .carousel-control .icon-prev {
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    font-size: 200px;
+    margin-right: -100px;
+    margin-left: -100px;
+    color: #42a5f6;
+}
+}
+
+#mainCarousel .carousel-indicators .active {
+    background: #42a5f6;
+    border: 1px solid #0781E6; 
+}
+
+
+/******** Media Queries ********/
+
+@media screen and (max-width: 1071px) {
+#mainCarousel .hero h1 {
+	font-size: 70px;
+}
+}
+
+@media screen and (max-width: 938px) {
+#mainCarousel .hero h1 {
+	font-size: 60px;
+}
+}
+
+@media screen and (max-width: 799px) {
+#mainCarousel .hero h1 {
+	font-size: 60px;
+}
+}
+
+@media screen and (max-width: 799px) {
+#mainCarousel .hero h3 {
+	font-size: 22px;
+}
+}
+
+@media screen and (max-width: 608px) {
+#mainCarousel .hero h1 {
+	font-size: 50px;
+}
+}
+
+@media screen and (max-width: 608px) {
+#mainCarousel .hero h3 {
+	font-size: 20px;
+}
+}
+
+@media screen and (max-width: 507px) {
+#mainCarousel .hero h1 {
+	font-size: 45px;
+}
+}
+
+@media screen and (max-width: 507px) {
+#mainCarousel .hero h3 {
+	font-size: 18px;
+}
+}
+
+@media screen and (max-width: 400px) {
+#mainCarousel .hero h1 {
+	font-size: 40px;
+}
+}
+
+@media screen and (max-width: 400px) {
+#mainCarousel .hero h3 {
+	font-size: 16px;
+}
+}
+
+/******** About Section ********/
+
+#about {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 40%;
+	overflow-x: hidden;
+	height: 100vh;
+	/* display: flex;
+	justify-content: center;
+	align-items: center; */
+	flex-direction: column;
+	background-color: #000;
+	color: #f7f7f7;
+	display: none;
+}
+.show {
+	display: block !important;
+  }
+  
+/* #about .container .text{
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 0px 8px 0px 8px;
+  display: flex;
+  justify-content: start;
+} */
+
+#about .container {
+	width: 90%;
+	/* Add any other desired styles for the container */
+  }
+  
+  #about .container .text {
+	padding: 0 8px;
+	/* Add any other desired styles for the text */
+  }
+  
+
+#about .text h2 {
+	font-size: 28px;
+	text-transform: uppercase;
+	font-family: 'Noto Sans', sans-serif;
+	letter-spacing: 1px;
+	font-weight: 600;
+	text-align: center;
+}
+
+#about .container .text p {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	flex-wrap: wrap;
+
+}
+
+#about .panel-group {
+	margin-top: 30px;
+}
+
+#about .panel-heading:hover {
+    cursor:pointer;
+}
+
+#about .panel-heading {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;    
+}
+
+#about .side-tab:hover {
+     cursor: pointer;
+}
+    
+#about .panel.panel-default {
+     border: none;
+     box-shadow: none !important;
+     border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+        
+}
+
+#about .panel-heading {
+     border: none;
+     /* background-color: #2469A2; */
+     color: #fff;
+}
+
+#about .panel-title {
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+}
+ 
+#about .panel-body {
+	border-right: 1px solid #2469A2;
+	border-left: 1px solid #2469A2;
+	font-family: 'PT Sans', sans-serif;
+}     
+
+#about #carousel {
+	margin-top: 30px;
+	position: relative;
+	display: block;
+}
+
+#about #carousel .item img {
+	width: 100%;
+}
+
+
+
+img {
+   max-width:100%;
+}
+
+/* no transition on .isotope container */
+
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+  -webkit-transition-duration: 0.6s;
+     -moz-transition-duration: 0.6s;
+          transition-duration: 0.6s;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+          transition-property:         transform, opacity;
+}
+
+
+
+.midimage{
+	width: 20px;
+	height: 20px;
+}
+
+/******** Footer ********/
+
+/* footer {
+	display: flex;
+	justify-content: end;
+	margin-top: 10%;
+	
+   
+  }
+  .social-icons {
+	display: flex;
+	justify-content: start;
+	padding-top: 10%;
+	
+  }
+  
+  .social-icons a {
+	margin: 0 10px;
+  }
+  
+  .social-icons img {
+	width: 30px;
+	height: 30px;
+  } */
+
+  .footer .container {
+	display: flex;
+	justify-content: flex-end;
+  }
+  
+  .footer .social-icons {
+	display: flex;
+	align-items: center;
+  }
+  
+  .footer .social-icons a {
+	margin-right: 10px;
+  }
+  .social-icons img {
+	width: 30px;
+	height: 30px;
+  } 
+  /* Additional styles as per your requirements */
+  
+.footermain{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	z-index: 99;
+	float: right;
+ }
+ .footermain .social-icons {
+	display: flex;
+	justify-content: end;
+	float: right;
+  }
+  
+  .footermain .social-icons a {
+	margin-right: 10px;
+  }
+  .social-icons img {
+	width: 30px;
+	height: 30px;
+  } 
+
+ .carousel-inner #aboutbtn{
+	background-color: none;
+	color: #f7f7f7;
+ }
