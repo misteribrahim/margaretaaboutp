@@ -7,9 +7,10 @@ body {
 	overflow-x: hidden;
 }
 .logo {
-	height: 110px;
-	width: 115px;
-  object-fit: contain;
+	/* height: 110px;
+	width: 115px; */
+  height: auto;
+  width: 100px;
 	top: 0;
 	left: 0;
 	margin-left: 2px;
@@ -405,9 +406,6 @@ img {
   @media screen and (max-width: 400px) {
   #mainCarousel .hero h1 {
     font-size: 40px;
-  }
-  #about {
-    width: 100%;
   }
   }
   
