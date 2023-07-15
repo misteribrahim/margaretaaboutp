@@ -7,11 +7,12 @@ body {
 	overflow-x: hidden;
 }
 .logo {
-	height: 100px;
-	width: 120px;
+	height: 110px;
+	width: 115px;
+  object-fit: contain;
 	top: 0;
 	left: 0;
-	margin-left: 4px;
+	margin-left: 2px;
 	margin-top: 20px;
 }
 #scrollUp {
@@ -78,7 +79,7 @@ body {
 }
 
 #mainCarousel .hero h1 {
-    font-size: 80px;
+    font-size: 70px;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -86,7 +87,7 @@ body {
 }
 
 #mainCarousel .hero h3 {
-    font-size: 26px;
+    font-size: 25px;
     margin: 0;
     padding: 0;
 }
@@ -94,7 +95,7 @@ body {
 #mainCarousel .hero button {
 	margin-top: 30px;
 	background: none;
-	font-size: 20px;
+	font-size: 16px;
 	padding: 10px 20px;
 	outline: none;
 	border-color: #fff;
@@ -121,77 +122,14 @@ body {
     font-size: 200px;
     margin-right: -100px;
     margin-left: -100px;
-    color: #42a5f6;
+    object-fit: cover;
+    
 }
 }
 
-#mainCarousel .carousel-indicators .active {
-    background: #42a5f6;
-    border: 1px solid #0781E6; 
-}
 
 
-/******** Media Queries ********/
 
-@media screen and (max-width: 1071px) {
-#mainCarousel .hero h1 {
-	font-size: 70px;
-}
-}
-
-@media screen and (max-width: 938px) {
-#mainCarousel .hero h1 {
-	font-size: 60px;
-}
-}
-
-@media screen and (max-width: 799px) {
-#mainCarousel .hero h1 {
-	font-size: 60px;
-}
-}
-
-@media screen and (max-width: 799px) {
-#mainCarousel .hero h3 {
-	font-size: 22px;
-}
-}
-
-@media screen and (max-width: 608px) {
-#mainCarousel .hero h1 {
-	font-size: 50px;
-}
-}
-
-@media screen and (max-width: 608px) {
-#mainCarousel .hero h3 {
-	font-size: 20px;
-}
-}
-
-@media screen and (max-width: 507px) {
-#mainCarousel .hero h1 {
-	font-size: 45px;
-}
-}
-
-@media screen and (max-width: 507px) {
-#mainCarousel .hero h3 {
-	font-size: 18px;
-}
-}
-
-@media screen and (max-width: 400px) {
-#mainCarousel .hero h1 {
-	font-size: 40px;
-}
-}
-
-@media screen and (max-width: 400px) {
-#mainCarousel .hero h3 {
-	font-size: 16px;
-}
-}
 
 /******** About Section ********/
 
@@ -209,6 +147,7 @@ body {
 	background-color: #000;
 	color: #f7f7f7;
 	display: none;
+  font-family: 'Montserrat', sans-serif;
 }
 .show {
 	display: block !important;
@@ -224,11 +163,13 @@ body {
 
 #about .container {
 	width: 90%;
+  font-family: 'Montserrat', sans-serif;
 	/* Add any other desired styles for the container */
   }
   
   #about .container .text {
 	padding: 0 8px;
+  font-family: 'Montserrat', sans-serif;
 	/* Add any other desired styles for the text */
   }
   
@@ -240,13 +181,15 @@ body {
 	letter-spacing: 1px;
 	font-weight: 600;
 	text-align: center;
+  /* font-family: 'Montserrat', sans-serif; */
 }
 
 #about .container .text p {
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
-	font-size: 16px;
+	font-size: 24px;
 	flex-wrap: wrap;
+  font-family: 'Montserrat', sans-serif;
 
 }
 
@@ -292,11 +235,11 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
  
-#about .panel-body {
+/* #about .panel-body {
 	border-right: 1px solid #2469A2;
 	border-left: 1px solid #2469A2;
 	font-family: 'PT Sans', sans-serif;
-}     
+}      */
 
 #about #carousel {
 	margin-top: 30px;
@@ -332,8 +275,8 @@ img {
 
 
 .midimage{
-	width: 20px;
-	height: 20px;
+	width: 15px;
+	height: 15px;
 }
 
 /******** Footer ********/
@@ -388,6 +331,7 @@ img {
 	justify-content: end;
 	z-index: 99;
 	float: right;
+  padding-bottom: 7px;
  }
  .footermain .social-icons {
 	display: flex;
@@ -407,3 +351,69 @@ img {
 	background-color: none;
 	color: #f7f7f7;
  }
+
+ /******** Media Queries ********/
+
+@media screen and (max-width: 1071px) {
+  #mainCarousel .hero h1 {
+    font-size: 70px;
+  }
+  }
+  
+  @media screen and (max-width: 938px) {
+  #mainCarousel .hero h1 {
+    font-size: 60px;
+  }
+  }
+  
+  @media screen and (max-width: 799px) {
+  #mainCarousel .hero h1 {
+    font-size: 60px;
+  }
+  }
+  
+  @media screen and (max-width: 799px) {
+  #mainCarousel .hero h3 {
+    font-size: 22px;
+  }
+  }
+  
+  @media screen and (max-width: 608px) {
+  #mainCarousel .hero h1 {
+    font-size: 50px;
+  }
+  }
+  
+  @media screen and (max-width: 608px) {
+  #mainCarousel .hero h3 {
+    font-size: 20px;
+  }
+  }
+  
+  @media screen and (max-width: 507px) {
+  #mainCarousel .hero h1 {
+    font-size: 45px;
+  }
+  }
+  
+  @media screen and (max-width: 507px) {
+  #mainCarousel .hero h3 {
+    font-size: 18px;
+  }
+  }
+  
+  @media screen and (max-width: 400px) {
+  #mainCarousel .hero h1 {
+    font-size: 40px;
+  }
+  #about {
+    width: 100%;
+  }
+  }
+  
+  @media screen and (max-width: 400px) {
+  #mainCarousel .hero h3 {
+    font-size: 16px;
+  }
+  }
+  
