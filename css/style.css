@@ -319,34 +319,40 @@ img {
 	margin-right: 10px;
   }
   .social-icons img {
-	width: 30px;
-	height: 30px;
+	width: 10px;
+	height: 10px;
   } 
   /* Additional styles as per your requirements */
   
-.footermain{
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	display: flex;
-	justify-content: end;
-	z-index: 99;
-	float: right;
-  padding-bottom: 7px;
- }
- .footermain .social-icons {
-	display: flex;
-	justify-content: end;
-	float: right;
+  .footermain {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 99;
+    padding-bottom: 7px;
+  }
+  
+  .footermain .social-icons {
+    display: flex;
+    justify-content: flex-end;
   }
   
   .footermain .social-icons a {
-	margin-right: 10px;
+    margin-right: 10px;
   }
+  
   .social-icons img {
-	width: 30px;
-	height: 30px;
-  } 
+    width: 20px; /* Decrease the size of the social icons */
+    height: 20px; /* Decrease the size of the social icons */
+  }
+  
+  /* Add spacing between the icons */
+  .social-icons a:not(:last-child) {
+    margin-right: 25px;
+  }
+  
 
  .carousel-inner #aboutbtn{
 	background-color: none;
