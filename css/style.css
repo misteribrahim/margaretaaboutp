@@ -46,13 +46,13 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
+    /* -o-background-size: cover; */
 	font-family: 'Montserrat', sans-serif;
 }
 
 
 #mainCarousel .slider_overlay {
-    background: none repeat scroll 0 0 #252333;
+    /* background: none repeat scroll 0 0 #252333; */
     height: 100%;
     opacity: 0.8;
     position: absolute;
