@@ -7,13 +7,14 @@ body {
 	overflow-x: hidden;
 }
 .logo {
+  position: absolute;
 	/* height: 110px;
 	width: 115px; */
   height: auto;
-  width: 119px;
+  width: 115px;
 	top: 0;
 	left: 0;
-	margin-left: 0.5px;
+	margin-left: 12px;
 	margin-top: 20px;
 }
 #scrollUp {
