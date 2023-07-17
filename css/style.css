@@ -13,7 +13,7 @@ body {
   width: 119px;
 	top: 0;
 	left: 0;
-	margin-left: 2px;
+	margin-left: 0.5px;
 	margin-top: 20px;
 }
 #scrollUp {
@@ -340,7 +340,8 @@ img {
   }
   
   .footermain .social-icons a {
-    margin-right: 10px;
+    margin-right: 1px;
+    margin-bottom: 5px;
   }
   
   .social-icons img {
