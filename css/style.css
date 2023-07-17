@@ -189,7 +189,7 @@ body {
   
 
 #about .text h2 {
-	font-size: 51px;
+	font-size: 4.5vh;
 	text-transform: uppercase;
 	font-family: 'Noto Sans', sans-serif;
 	letter-spacing: 1px;
@@ -201,7 +201,7 @@ body {
 #about .container .text p {
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
-	font-size: 24px;
+	font-size: 2.3vh;
 	flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
   
