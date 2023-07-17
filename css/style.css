@@ -150,6 +150,7 @@ body {
 	background-color: #000;
 	color: #f7f7f7;
 	display: none;
+  
   font-family: 'Montserrat', sans-serif;
 }
 .show {
@@ -172,34 +173,38 @@ body {
 	width: 90%;
   font-family: 'Montserrat', sans-serif;
   display: flex;
-  column-gap: 20px;
+  column-gap: 15px;
   flex-direction: column;
+  padding-top: 4px;
 	/* Add any other desired styles for the container */
   }
   
   #about .container .text {
-	padding: 0 8px;
+	/* padding: 0 8px; */
   font-family: 'Montserrat', sans-serif;
+  padding: 10px;
+  margin: 4px;
 	/* Add any other desired styles for the text */
   }
   
 
 #about .text h2 {
-	font-size: 28px;
+	font-size: 51px;
 	text-transform: uppercase;
 	font-family: 'Noto Sans', sans-serif;
 	letter-spacing: 1px;
 	font-weight: 600;
-	text-align: center;
+	text-align: start;
   /* font-family: 'Montserrat', sans-serif; */
 }
 
 #about .container .text p {
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
-	font-size: 20px;
+	font-size: 24px;
 	flex-wrap: wrap;
   font-family: 'Montserrat', sans-serif;
+  
 
 }
 /* #about .container .text img{
