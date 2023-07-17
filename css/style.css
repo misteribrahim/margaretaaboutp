@@ -331,7 +331,7 @@ img {
   .footer .container {
 	display: flex;
 	justify-content: flex-end;
-  margin-left: 68px;
+  margin-left: 53px;
   }
   
   .footer .social-icons {
@@ -366,11 +366,13 @@ img {
     display: flex;
     justify-content: flex-end;
     position: relative;
+   
   }
   
   .footermain .social-icons a {
     display: inline-block;
     margin-bottom: 5px;
+    margin-right: 12px;
   }
   
   .social-icons img {
@@ -454,9 +456,6 @@ img {
   }
   #about{
     width: 55%;
-  }
-  .footer .container{
-    margin-right: 8px;
   }
   }
   
